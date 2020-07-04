@@ -1,31 +1,28 @@
-
-
 <!DOCTYPE html>
-<html lang="en-US">
- <head>
- 
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <! Loadin' icon library for compatibility with small screens>
-    
-   <style>
-   
-     * {box-sizing: border-box;}
-	
-     /*body { background-image: url("Hole.JPG"); /*linear-gradient(to bottom, white, #808000);*/;
-        /*color: white; background-size: cover;	
-     		margin: 0; font-family: Arial, Helvetica, sans-serif;} body attributes */
-     body { background: url('Hole.JPG') no-repeat; color: black; margin: 0; font-family: Arial, Helvetica, sans-serif; }
-    .whole-page-wrapper { min-height:100%; margin-top: 400px; background: linear-gradient(to bottom, white, #808000); background-size: cover;}
-     * html .whole-page-wrapper { height:100% }
-   
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Untitled Document</title>
+<style type="text/css">
+html, body {
+	height:100%;
+	margin:0;
+	padding:0;
+}
+body { background: url('Hole.JPG') no-repeat; font-family: Arial, Helvetica, sans-serif;}
+.whole-page-wrapper {
+	min-height:100%; margin-top: 60px; margin-right:0; margin-left:0;
+	background: linear-gradient(to bottom, white, #808000); background-size: 100% 100%; font-family: Arial, Helvetica, sans-serif;
+}
+* html .whole-page-wrapper { height:100%; }
+
+     .header{padding: 0;color: white; text-align:left; text-decoration: none ;position: absolute; left: 80px; top:30px; font-size: 15px;}   /*declaring the header*/
+      
      .topnav{overflow: hidden; position: absolute; right:70px; background-color:none ;} /*setting the top navigator*/
 
-     .topnav a{float: left; color: black; text-align: center; padding: 30px 30px; text-decoration: none; font-size: 12px; direction: ltr;}  /*setting the content of the navigator*/
+     .topnav a{float: left; color: white; text-align: center; padding: 30px 30px; text-decoration: none; font-size: 12px; direction: ltr;}  /*setting the content of the navigator*/
    
-     .header{padding: 0;color: black; text-align:left; text-decoration: none ;position: absolute; left: 80px; top:30px; font-size: 15px;}   /*declaring the header*/ 
+     .header{padding: 0;color: white; text-align:left; text-decoration: none ;position: absolute; left: 80px; top:30px; font-size: 15px;}   /*declaring the header*/ 
      
      .topnav a:hover{background-color: "400"; color: maroon;}    /*mouse basically*/
    
@@ -41,7 +38,7 @@
     
      img { border-radius: 50%; margin-left:480px; }
      
-     .box { background-color: white; opacity:.7; border-radius: 30px;  width: 95%; border: none; padding: 50px; margin-left: 38px; margin-top:50px }  /*creating a box*/
+     .box { background-color: white; opacity:.7; border-radius: 30px; margin-right: 50px; border: none; padding: 50px; margin-left: 38px; margin-top:40px }  /*creating a box*/
 
 
     @media screen and (max-width: 600px) { column.middle {width: 100%; }} /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
@@ -79,13 +76,10 @@
 
   .bar.expert::before{  width: calc(100% - 10px);}
 
-   </style>
-  
- </head>
- 
-<body>
-       <div class = 'whole-page-wrappe'>
+</style>
+</head>
 
+<body>
 	<header>   <! the header>
 	
 		<div class = 'header'>
@@ -102,7 +96,6 @@
 		    <a href="#work_station">WORK STATION</a>
 		    <a href="#experience">EXPERIENCE</a>
 		    <a href= "#chat">LET'S CHAT</a>
-			  
 		</div>
 
 	 </navigation-menu>
@@ -113,19 +106,17 @@
 		  
 		    <h1>Xola Ndaliso </h1>
 		    <p>M.Sc Astrophysics Graduate</p>
-		    
-		    
+			  
 		  </div>
 		  
 		  <div class = 'img'>
 		  
 		     <img src = 'Xola.JPG' style ="width:30%; height:30%"> 
-		     
+			  
 		  </div>
-		    
-		  
 	</div>
-		
+	
+<div class = 'whole-page-wrapper'>
 	<div class = 'section' id="about">
 		<div class = box>
 		   <h3>ABOUT ME</h3>
@@ -173,9 +164,7 @@
 		  <p><strong>Institution:</strong> University of the Western Cape</p>
 		  <p><strong>Majors:</strong> Mathematics and Physics</p>
 		  <p><strong>Status:</strong> Completed</p>
-
-		  
-	
+			
 		</div>
 	</div>
 	
@@ -194,6 +183,7 @@
 			</div>
 			
 			<hr />
+			
 			<h3>CERTIFICATES</h3>
 			<p><a href="https://courses.cognitiveclass.ai/certificates/4166731a00314cf0830ecc5d2546b6de"><strong>Introduction to Data Science</strong></a></p>
 			<p><a href = "https://courses.cognitiveclass.ai/certificates/58f7d1d4b04344e68c9232b6068c3ffd"><strong>Python for Data Science</strong></a></p>
@@ -203,18 +193,13 @@
 		        <p><a href = "https://courses.cognitiveclass.ai/certificates/d672b8733a41424aae483bd14c411b4e"><strong>Introduction to Hadoop</strong></a></p>
 		        <p><a href = "https://courses.cognitiveclass.ai/certificates/f66d32e937054b319c06792893ce70de"><strong>MapReduce and YARN</strong></a></p>
 		        <p><a href = "https://courses.cognitiveclass.ai/certificates/d5fa11318d384b62ad8c1732863bf856"><strong>Moving Data into Hadoop</strong></a></p>
-		        
 		</div>
 	</div>
-	
-	
 	<div class = 'section' id="work_station">
 	      <div class = box>
 	      	<h3>WANT TO FOLLOW ME GitHub?</h3>
-	      
-	      
+	    
 	      </div>
-	
 	</div>
 	
 	<div class = 'section' id="experience">
@@ -233,13 +218,8 @@
 			<p><strong>ORGANIZATION:</strong> University of the Western Cape</p>
 			<p><strong>ORGANIZATION:</strong> University of the Western Cape</p>
 			<p><strong>PERIOD:</strong> Jun 2017 - Nov 2017 </p>
-			<p>I was tutoring Physics second-years on a Python course.</p>
-			
-			
-				
+			<p>I was tutoring Physics second-years on a Python course.</p>	
 		</div>
-	
-	
 	</div>
 	
 	<div class = 'section' id="chat">
@@ -247,11 +227,9 @@
 			<h3>INTERESTED TO KNOW MORE? </h3>
 			<p>WHY NOT DROP ME A LINE @ </strong> <a href ='mailto:xola.ndaliso@gmail.com'><strong> EMAIL</strong></a></p>	
 		</div>
-	
 	</div>
-</div> <! page wrapper ends here>
+</div>
 
 </body>
 </html>
-
 
