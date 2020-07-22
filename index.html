@@ -39,10 +39,15 @@ body { background: url('Hole.JPG') no-repeat; font-family: Arial, Helvetica, san
     
      img { border-radius: 50%; margin-left:480px; }
      
+     .blend1 img:first-child {
+  	position: absolute;
+  	mix-blend-mode: soft-light;
+	}
+     
      .box { background-color: white; opacity:.7; border-radius: 30px; margin-right: 50px; border: none; padding: 50px; margin-left: 38px; margin-top:40px }  /*creating a box*/
 
 
-    @media screen and (max-width: 600px) { column.middle {width: 100%; }} /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 350px) { column.middle {width: 100%; }} /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
     
     .container{ width: 50%; margin-left: 15px}
 
