@@ -258,10 +258,7 @@ img {width:100%;
 }
 
 /* Smartphones (portrait and landscape) --------- */
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px) {
-/* @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) { */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   html {
     transform: rotate(90deg);
     transform-origin: left top;
@@ -283,7 +280,15 @@ and (min-width : 321px) {
 /* Smartphones (portrait) ----------- */
 @media only screen
 and (max-width : 320px) {
-/* media queries must be added here */
+ html {
+    transform: rotate(90deg);
+    transform-origin: left top;
+    width: 100vh;
+    overflow-x: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
 }
 
 .footer {
