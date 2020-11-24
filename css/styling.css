@@ -272,7 +272,7 @@ img {width:100%;
     position: absolute;
     top: 100%;
     left: 0;
-    text-size: 30vh;
+    text-size: 10vh;
   }
 .column {
     flex: 50%;
