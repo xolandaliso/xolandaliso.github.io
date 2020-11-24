@@ -263,7 +263,8 @@ img {width:100%;
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2){
-  html {
+  html body {background-image:url("images/physics.jpg");
+    font-family: Arial, Helvetica, sans-serif; 
     transform: rotate(-90deg);
     transform-origin: left top;
     width: 100vh;
@@ -272,7 +273,6 @@ img {width:100%;
     top: 100%;
     left: 0;
     text-size: 30vh;
-    font
   }
 .column {
     flex: 50%;
