@@ -257,8 +257,12 @@ img {width:100%;
    text-align: center;
 }
 
-/* Smartphones (portrait and landscape) --------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Smartphones (portrait and landscape) --------- 
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2){
   html {
     transform: rotate(-90deg);
     transform-origin: left top;
