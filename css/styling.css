@@ -268,6 +268,35 @@ img {width:100%;
     top: 100%;
     left: 0;
   }
+.column {
+    flex: 50%;
+  }
+	/* I changed something here. Its getting messy a bit---- */
+.box-img {height:230px;
+          width: 250px;
+          display:block;
+
+}
+
+.flex-container {
+    display: flex;
+    margin-left:50px;
+    margin-right:50px;
+}
+
+.flex-child {
+    flex: 1;
+    border: none;
+    border-radius:30px;
+    background-color:none;
+    opacity:1;
+}
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
+/* I changed something here. Its getting messy a bit---- */
+
 }
 
 /* Smartphones (landscape) ----------- */
