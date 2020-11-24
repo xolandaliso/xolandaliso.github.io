@@ -275,7 +275,7 @@ and (max-device-width : 480px) {
 /* Smartphones (landscape) ----------- */
 @media only screen
 and (min-width : 321px) {
-html {
+/*html {
     transform: rotate(-90deg);
     transform-origin: left top;
     width: 100vh;
@@ -283,7 +283,7 @@ html {
     position: absolute;
     top: 100%;
     left: 0;
-  }
+  }*/
 }
 
 /* Smartphones (portrait) ----------- */
