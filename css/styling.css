@@ -261,7 +261,7 @@ img {width:100%;
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
-html {
+/*html {
     transform: rotate(-90deg);
     transform-origin: left top;
     width: 100vh;
@@ -269,7 +269,7 @@ html {
     position: absolute;
     top: 100%;
     left: 0;
-  }
+  }*/
 }
 
 /* Smartphones (landscape) ----------- */
