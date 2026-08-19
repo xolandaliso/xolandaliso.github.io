@@ -22,8 +22,9 @@
     --sans:  "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     --mono:  "DM Mono", "SFMono-Regular", Menlo, Consolas, monospace;
   
-    --max: 860px;
-    --max-nav: 1120px;
+    /* Widened slightly (e.g. from 860px / 1120px up to 1000px / 1200px) */
+    --max: 1000px;
+    --max-nav: 1200px;
     --gutter: clamp(24px, 7vw, 72px);
   }
   
@@ -43,11 +44,6 @@
     font-size: 16px;
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
-    background-image:
-      linear-gradient(var(--line) 1px, transparent 1px),
-      linear-gradient(90deg, var(--line) 1px, transparent 1px);
-    background-size: 42px 42px;
-    background-position: center top;
   }
   
   ::selection { background: var(--sage); color: var(--ink); }
